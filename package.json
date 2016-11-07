@@ -20,5 +20,7 @@
   "bugs": {
     "url": "https://github.com/schetnikovich/lasso-marko-extras/issues"
   },
-  "homepage": "https://github.com/schetnikovich/lasso-marko-extras"
+  "homepage": "https://github.com/schetnikovich/lasso-marko-extras",
+  "dependencies": {
+  }
 }
