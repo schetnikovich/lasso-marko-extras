@@ -4,9 +4,9 @@ require('./configure');
 var extras = require('../../lib');
 
 require('raptor-logging').configure({
-    loggers: {
-        'lasso-marko-extras': 'DEBUG'
-    }
+  loggers: {
+    'lasso-marko-extras': 'DEBUG'
+  }
 });
 
 // Specify any files that needs to be copied to assets folder (build/static)
