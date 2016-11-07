@@ -1,0 +1,7 @@
+{
+  "tags": {
+    "lasso-page-json": {
+      "renderer": "./tags/lasso-page-json/renderer.js"
+    }
+  }
+}
