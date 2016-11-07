@@ -1,6 +1,6 @@
 {
   "name": "lasso-marko-extras",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Lasso and Marko extras",
   "main": "lib/index.js",
   "repository": {
@@ -21,6 +21,5 @@
     "url": "https://github.com/schetnikovich/lasso-marko-extras/issues"
   },
   "homepage": "https://github.com/schetnikovich/lasso-marko-extras",
-  "dependencies": {
-  }
+  "dependencies": {}
 }
