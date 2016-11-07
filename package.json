@@ -1,8 +1,11 @@
 {
   "name": "lasso-marko-extras",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Lasso and Marko extras",
   "main": "lib/index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint ."
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/schetnikovich/lasso-marko-extras.git"
@@ -13,13 +16,21 @@
   ],
   "devDependencies": {
     "async": "2.1.2",
-    "lasso": "2.7.2"
+    "express": "4.14.0",
+    "lasso": "2.7.2",
+    "lasso-less": "2.3.1",
+    "lasso-marko": "2.0.7",
+    "marko": "3.12.0",
+    "marko-widgets": "6.3.7",
+    "browser-refresh": "1.6.0",
+    "browser-refresh-client": "1.1.4",
+    "browser-refresh-taglib": "1.1.0",
+    "eslint": "3.9.1"
   },
   "author": "Dmitry Schetnikovich",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/schetnikovich/lasso-marko-extras/issues"
   },
-  "homepage": "https://github.com/schetnikovich/lasso-marko-extras",
-  "dependencies": {}
+  "homepage": "https://github.com/schetnikovich/lasso-marko-extras"
 }

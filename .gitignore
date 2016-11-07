@@ -3,3 +3,6 @@ node_modules/
 .idea/
 *.marko.js
 npm-debug.log
+
+.cache/
+test/site/static
