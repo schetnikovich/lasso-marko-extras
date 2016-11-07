@@ -20,14 +20,6 @@ var lassoPageTag = require('lasso/taglib/page-tag');
 var path = require('path');
 var fs = require('fs');
 
-exports.tag = {
-  'no-input': true,
-  'import-var': {
-    'dirname': '__dirname',
-    'filename': '__filename'
-  }
-};
-
 var cache = {};
 
 exports.renderer = function(input, out) {
@@ -45,4 +37,3 @@ exports.renderer = function(input, out) {
   config.filename = input.filename;
   lassoPageTag(config, out);
 };
-

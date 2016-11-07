@@ -1,7 +1,12 @@
 {
   "tags": {
     "lasso-page-json": {
-      "renderer": "./tags/lasso-page-json/renderer.js"
+      "renderer": "./tags/lasso-page-json/renderer.js",
+      "no-output": true,
+      "import-var": {
+        "dirname": "__dirname",
+        "filename": "__filename"
+      }
     }
   }
 }
