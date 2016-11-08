@@ -67,15 +67,15 @@ INFO lasso-marko-extras/lib/builder: Build complete!
 ## Page tag
 
 This module also introduces `<lasso-page-json />` tag that is a wrapper around
-`<lasso-page />` tag. This tag have no attributes.
+`<lasso-page />` tag. This tag has no attributes.
 
-The only difference is that `lasso-page-json` tag reads configuration from 
+The only difference is that `<lasso-page-json />` tag reads configuration from 
 `page.json` file, located in the same folder where template is located. This allows 
 to build static assets with the same configuration options. `build()` function
 shown above reads page configuration from `page.json` file, if available.
 
 In short, if you ever need to specify some attributes on `lasso-page` tag, specify 
-them in `page.json` file and use `lasso-page-json` tag without attributes.
+them in `page.json` file and use `<lasso-page-json />` without attributes.
 
 page.json:
 
