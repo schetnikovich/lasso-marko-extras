@@ -15,7 +15,8 @@
     "marko"
   ],
   "dependencies": {
-    "rimraf": "2.5.4"
+    "rimraf": "2.5.4",
+    "async": "2.1.2"
   },
   "devDependencies": {
     "async": "2.1.2",
