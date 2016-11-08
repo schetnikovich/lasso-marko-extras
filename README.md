@@ -83,13 +83,13 @@ page.json:
 {
   "name": "switcher-faq",
   "cacheKey": "someUniqueKey",
-  "flags": ['foo', 'bar']
+  "flags": ["foo", "bar"]
 }
 ```
 
 template.marko:
 
-```
+```html
 <lasso-page-json />
 ...
 ```
