@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- ---------------------------------
+  Title placeholder (with default value)
+  ----------------------------------- -->
+  <title><include(input.title) if(input.title)/><else>Sample</else></title>
+
+  <!-- --
+  Favicon
+  ---- -->
+  <lasso-resource path="./favicon.ico" var="favicon"/>
+  <link rel="shortcut icon" href="${favicon.url}">
+
+  <!-- -------------------------------------------
+  Placeholder for CSS and JavaScript (usually CSS)
+  --------------------------------------------- -->
+  <lasso-head/>
+
+</head>
+<body>
+  <!-- -------------------
+  Placeholder for content
+  --------------------- -->
+  <include(input.content)/>
+
+  <!-- -------------------
+  Placeholder for JS files
+  --------------------- -->
+  <lasso-body/>
+
+  <!-- ----------------------------------------------------------------------------
+  If the process was NOT launched using "browser-refresh" then the tag will
+  not produce any output. That is, it is safe for the tag to be used in production.
+  ----------------------------------------------------------------------------- -->
+  <browser-refresh enabled="true"/>
+</body>
+</html>

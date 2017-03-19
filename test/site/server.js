@@ -1,4 +1,5 @@
 require('./configure.js');
+require('marko/express');
 
 var port = 8087;
 var express = require('express');

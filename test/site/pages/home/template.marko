@@ -1,29 +1,9 @@
-<lasso-page-json />
+<include('../../layouts/base')>
+  <@content>
+    <div class="test">
 
-<layout-use("../../layouts/base/template.marko")>
-<layout-put into="title">Lasso + Marko</layout-put>
-
-<layout-put into="body">
-
-  <div class="container">
-    <div class="content">
-      <h1>Lasso + Marko Startkit &#128640;</h1>
-
-      <p>
-        <a href="https://github.com/lasso-js/lasso">Lasso</a> &mdash; is an eBay open source Node.js-style JavaScript module bundler that also
-        provides first-level support for optimally delivering JavaScript, CSS, images and other
-        assets to the browser.
-      </p>
-
-      <p>
-        <a href="https://github.com/marko-js/marko">Marko</a> &mdash; is a really fast and lightweight HTML-based templating engine from eBay. Marko
-        runs on Node.js and in the browser and it supports streaming, async rendering and custom
-        tags. Templates are compiled to readable CommonJS modules.
-      </p>
+      Hello!
 
     </div>
-  </div>
-
-</layout-put>
-
-</layout-use>
+  </@content>
+</include>
