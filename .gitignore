@@ -1,8 +1,8 @@
-# Created by .ignore support plugin (hsz.mobi)
 node_modules/
 .idea/
 *.marko.js
 npm-debug.log
+.DS_Store
 
 .cache/
 test/site/static
