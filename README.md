@@ -45,7 +45,7 @@ require('raptor-logging').configure({
 });
 ```
 
-This module doesn't introduce dependencies on Lasso, Marko or Marko Widgets and assumes
+This module doesn't introduce dependencies on Lasso or Marko and assumes
 that your project already depends on them. Check sample project that uses this module: 
 [lasso-marko-startkit](https://github.com/schetnikovich/lasso-marko-startkit)
 
