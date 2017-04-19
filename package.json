@@ -1,6 +1,6 @@
 {
   "name": "lasso-marko-extras",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Lasso and Marko extras",
   "main": "lib/index.js",
   "scripts": {
