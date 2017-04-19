@@ -21,9 +21,9 @@
   "devDependencies": {
     "async": "2.1.2",
     "express": "4.15.2",
-    "lasso": "2.11.6",
+    "lasso": "2.11.8",
     "lasso-marko": "2.3.0",
-    "marko": "4.1.2",
+    "marko": "4.2.8",
     "lasso-less": "2.4.3",
     "browser-refresh": "1.7.1",
     "browser-refresh-taglib": "1.1.0",
